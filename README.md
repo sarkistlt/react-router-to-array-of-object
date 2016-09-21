@@ -13,7 +13,6 @@ npm i --save react-router-to-array-of-object
 import React from 'react';
 import { Route, IndexRoute } from 'react-router';
 import routesToArray from 'react-router-to-array-of-object';
-// or var reactRouterToArray = require('react-router-to-array');
 
 const appRoutes = (
     <Route path="/admin" name={admin} getComponents={require('./admin').default}>
@@ -24,7 +23,7 @@ const appRoutes = (
     </Route>
 );
 
-console.log(reactRouterToArray(appRoutes));
+console.log(routesToArray(appRoutes));
 /**
 output: 
 [

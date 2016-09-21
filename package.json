@@ -1,6 +1,6 @@
 {
   "name": "react-router-to-array-of-object",
-  "version": "0.0.2",
+  "version": "0.1.1",
   "description": "Convert your react router component to an array of objet {name: 'route name', path: 'route path'}",
   "main": "lib/index.js",
   "scripts": {
