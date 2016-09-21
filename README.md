@@ -27,6 +27,11 @@ const appRoutes = (
 console.log(reactRouterToArray(appRoutes));
 /**
 output: 
-
+[
+    {name:'admin' path: '/admin'},
+    {name:'Dashboard' path: '/dashboard'},
+    {name:'QuizReport' path: '/dashboard/quiz-report'},
+    {name:'Products' path: '/products'},
+]
 */
 ~~~
